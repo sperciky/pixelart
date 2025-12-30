@@ -1,0 +1,15 @@
+{
+  "name": "Basic Colors (8)",
+  "description": "Simple 8-color palette for beginners - primary and secondary colors plus black and white",
+  "source": "Basic Palette",
+  "colors": [
+    {"name": "White", "rgb": [255, 255, 255], "code": "WHT", "hex": "#FFFFFF"},
+    {"name": "Black", "rgb": [0, 0, 0], "code": "BLK", "hex": "#000000"},
+    {"name": "Red", "rgb": [255, 0, 0], "code": "RED", "hex": "#FF0000"},
+    {"name": "Green", "rgb": [0, 255, 0], "code": "GRN", "hex": "#00FF00"},
+    {"name": "Blue", "rgb": [0, 0, 255], "code": "BLU", "hex": "#0000FF"},
+    {"name": "Yellow", "rgb": [255, 255, 0], "code": "YEL", "hex": "#FFFF00"},
+    {"name": "Cyan", "rgb": [0, 255, 255], "code": "CYN", "hex": "#00FFFF"},
+    {"name": "Magenta", "rgb": [255, 0, 255], "code": "MAG", "hex": "#FF00FF"}
+  ]
+}
