@@ -66,6 +66,15 @@ class Color:
         """Developer-friendly representation."""
         return f"Color(name='{self.name}', rgb={self.rgb}, code='{self.code}')"
 
+    def __hash__(self) -> int:
+        """
+        Make Color hashable so it can be used in sets and as dict keys.
+
+        Hash is based on name and RGB values, which uniquely identify a color.
+        The lab field is excluded since it's computed later and doesn't affect identity.
+        """
+        return hash((self.name, self.rgb))
+
 
 @dataclass
 class Palette:
